@@ -1,0 +1,149 @@
+#header {
+  width: 100%;
+  height: 75vh;
+  margin-top: 78px;
+}
+
+#header .welcome {
+  font-size: 4rem;
+
+}
+#header .caption {
+  font-size: 1.5rem;
+}
+#header h1 {
+  
+  
+  font-weight: 900;
+  
+ 
+}
+#header .brand-name {
+  font-weight: bold;
+  font-size: 4rem;
+  color: #10CAF0;
+ 
+  
+}
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #3498db;
+  text-decoration: none;
+  margin-bottom: 150px;
+
+}
+#header .btn-get-started:hover{
+  background-color: #198753;
+  color: white;
+}
+.header-img {
+  text-align: center;
+ 
+  
+
+}
+#header .animated {
+  height: 39rem;
+  margin-top: -50px; 
+  
+}
+
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down { 
+  0% {
+    transform: translatey(5px);
+  }
+  100%{
+    transform: translatey(-5px);
+  }
+ }
+ @keyframes up-down {
+  0% {
+    transform: translatey(10px);
+  }
+  100%{
+    transform: translatey(-5px);
+  }
+ }
+
+ @media (max-width: 800px) {
+  #header .animated {
+    height: 20rem;
+    margin-top: -65px; 
+    
+  }  
+  #header .caption {
+    font-size: 1.2rem;
+    margin-top: -15px;
+  }
+  #header .brand-name {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #10CAF0
+  }
+  #header .btn-get-started {
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #3498db;
+    border: 2px solid #3498db;
+    text-decoration: none;
+  
+  
+  }
+  #header .welcome {
+    font-size: 3rem;
+  }
+  
+}
+@media (max-width: 500px) {
+  #header .animated {
+    height: 20rem;
+    margin-top: -50px; 
+    
+  }  
+  #header .caption {
+    font-size: 1.1rem;
+    margin-top: -15px;
+  }
+  #header .brand-name {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #10CAF0
+  }
+  #header .btn-get-started {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+   
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #3498db;
+    border: 1px solid #3498db;
+    text-decoration: none;
+  
+  
+  }
+  #header .welcome {
+    font-size: 2rem;
+  }
+ 
+
+  
+}
+  

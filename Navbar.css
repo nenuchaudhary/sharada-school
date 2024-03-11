@@ -1,0 +1,59 @@
+
+.col-12 {
+  height: 100px;
+  box-shadow: 1px 1px 4px rgb(2, 88, 93);
+}
+.media-icons:hover {
+ color: wheat;
+  
+ 
+}
+
+.container-fluid img {
+ height: 75px;
+ animation: rotate 20s linear infinite;
+
+}
+
+
+@keyframes rotate {
+  100%{
+    rotate: 360deg;
+  }
+}
+
+
+.nav-item {
+  font-size: 20px;
+    
+}
+.container-fluid img:hover {
+  transform: scale(1.2);
+} 
+.nav-link:hover{
+  font-weight: bold;
+  border-bottom: 1px solid rgb(11, 11, 11);
+}
+@media (max-width: 800px) {
+  .container-fluid img {
+    height: 50px;
+   }
+
+.nav-item {
+  font-size: 16px;
+    
+}
+  
+}
+@media (max-width: 500px) {
+  .container-fluid img {
+    height: 40px; 
+   }
+
+.nav-item {
+  font-size: 13px;
+    
+}
+  
+}
+  
